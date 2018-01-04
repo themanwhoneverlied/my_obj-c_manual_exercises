@@ -3,18 +3,18 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        int somma;
-        int addendo1;
-        int addendo2;
+        int sum;
+        int add1;
+        int add2;
         
-        NSLog(@"Inserisci il primo addendo");
-        scanf("%i", &addendo1);
+        NSLog(@"Enter the first add ");
+        scanf("%i", &add1);
         
-        NSLog(@"Inserisci il secondo addendo");
-        scanf("%i", &addendo2);
+        NSLog(@"Enter the second add ");
+        scanf("%i", &add2);
         
-        somma = addendo1 + addendo2;
-        NSLog(@"La somma tra %i e %i vale %i", &addendo1, &addendo2, somma);
+        sum = add1 + add2;
+        NSLog(@"The sum between %i and %i is %i", &add1, &add2, sum);
         
         
     }
